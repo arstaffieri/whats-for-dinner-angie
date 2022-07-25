@@ -21,28 +21,43 @@ body {
   padding: 5px 0;
   letter-spacing: 2px;
 }
+
 h1 {
-  padding-left: 5px
+  font-family: 'Roboto', sans-serif;
 }
+
 .container {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-  padding-top: 200px
-  padding-left: 50px
-	align-items: center;
+	flex-wrap: wrap-reverse;
+	justify-content: space-evenly;
+	align-items: stretch;
 	align-content: center;
-  background-color: white;
-  height: 300px
+  opacity: 0.75
 }
 
 .child1 {
   background-color: white;
-  height: 300px
-  width: 50%
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  border: solid 3px white;
+  margin: 0
+  border: 5px solid #1C6EA4;
+  border-radius: 9px;
 }
 
 .child2 {
   background-color: white;
+  background: url(assets/cookpot.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  border: solid 3px white;
+  margin: 0
+  border: 5px solid #1C6EA4;
+  border-radius: 9px;
 }
